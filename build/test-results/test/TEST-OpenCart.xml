@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OpenCart" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-04T20:27:32" hostname="DESKTOP-PLD8QR8" time="32.368">
+  <properties/>
+  <testcase name="Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente" classname="OpenCart" time="11.757"/>
+  <testcase name="Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad" classname="OpenCart" time="9.584"/>
+  <testcase name="Verificar que el usuario no pueda editar el campo divisa" classname="OpenCart" time="11.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@60891d5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@f75903a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@75c4a406
+may 04, 2022 3:27:33 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 16575
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may 04, 2022 3:27:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4367ce6b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6c64422c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@11f3797a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@11815199
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7d22e40b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@726ce9b6
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@31cbd3fb
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4b6f6aa4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@c9b7bf5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@41232b44
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@419b29f5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4d3e6d83
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@9c22c10
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@10866fb5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@40e6f7f1
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@985b8be
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@43773f3f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]]]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente
+----------------------------------------------------------------------------
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2e9ac33
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@604002e5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6e6fd851
+may 04, 2022 3:27:44 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 28741
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may 04, 2022 3:27:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4d6077fd
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@250da425
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7698c63d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4c1a3949
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@f4db91
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@9ee7642
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@70b5c798
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@47b58200
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@450d48ec
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@436c1ba
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4b00dd1c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4830b1d6
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@65e86fca
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2aa5c35f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@41c2e2c8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7cd82c47
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@66bf0364
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el valor total del producto de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar total]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el valor total del producto de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar total]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el valor total del producto de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar total]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el valor total del producto de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar total]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]], Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el valor total del producto de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar total]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]], Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el valor total del producto de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar total]]]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad
+----------------------------------------------------------------------------
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1f9fc68
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5107dd1e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@38882200
+may 04, 2022 3:27:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 27372
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may 04, 2022 3:27:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2fa29f6c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@d84781f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1b56b536
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@357f8cf8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7cb89c1c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@65fa63ad
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@44ebdd50
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@36a2b3bc
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2bcedbaf
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7e9da22b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2fa93c04
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6528d288
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7b67cd4e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6cc167a5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@497106d9
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@39e3a1f4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@10a3437c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@28a63489
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa, Jhonatan clicks on Seleccionar boton continuar]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa, Jhonatan clicks on Seleccionar boton continuar]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa, Jhonatan clicks on Seleccionar boton continuar]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@58fdcb31
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@464fe3f7
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa, Jhonatan clicks on Seleccionar boton continuar]], Then el verifica la alerta de error mostrada por el sistema
+| errorMssage |
+| Warning: You do not have permission to access the API!
+× | [Then verificar alerta]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa, Jhonatan clicks on Seleccionar boton continuar]], Then el verifica la alerta de error mostrada por el sistema
+| errorMssage |
+| Warning: You do not have permission to access the API!
+× | [Then verificar alerta]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa, Jhonatan clicks on Seleccionar boton continuar]], Then el verifica la alerta de error mostrada por el sistema
+| errorMssage |
+| Warning: You do not have permission to access the API!
+× | [Then verificar alerta]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa, Jhonatan clicks on Seleccionar boton continuar]], Then el verifica la alerta de error mostrada por el sistema
+| errorMssage |
+| Warning: You do not have permission to access the API!
+× | [Then verificar alerta]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]], Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el valor total del producto de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar total]], Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa, Jhonatan clicks on Seleccionar boton continuar]], Then el verifica la alerta de error mostrada por el sistema
+| errorMssage |
+| Warning: You do not have permission to access the API!
+× | [Then verificar alerta]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Verificar que al ingresar a ordenes de ventas el filtro por ID funcione correctamente:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el ID de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar orden id]], Verificar que el valor total de un producto corresponda a la cantidad, por el valor de la unidad:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, verifyOderId=Order (#16630)} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver orden [Jhonatan ingresar orden [Jhonatan clicks on Seleccionar ver orden]], Then el verifica el valor total del producto de la orden consultada
+| verifyOderId |
+| Order (#16630) | [Then verificar total]], Verificar que el usuario no pueda editar el campo divisa:Example: {username=Demo, password=demo, salesOptions=Orders, orderId=16630, currency=Euro, errorMssage=Warning: You do not have permission to access the API!
+×} [Given que Jhonatan quiere ingresar a la pagina web opencart
+| username | password |
+| Demo | demo | [Jhonatan abrir navegador [Jhonatan opens the Abrir pagina opencart], Jhonatan login [Jhonatan enters 'Demo' into Ingresar nombre de usuario, Jhonatan enters 'demo' into Ingresar contraseÃ±a, Jhonatan clicks on Seleccionar boton login]], When el ingresa a la opcion ordenes de ventas
+| salesOptions |
+| Orders | [Jhonatan buscar orden [Jhonatan clicks on Seleccionar ventas, Jhonatan clicks on Seleccionar orden]], And realiza el filtro por el ID de la orden
+| orderId |
+| 16630 | [Jhonatan ingresar orden [Jhonatan enters '16630' into Ingresar el Id de la orden, Jhonatan clicks on Ingresar el Id de la orden]], And selecciona la opcion ver ordenn
+| currency |
+| Euro | [Jhonatan editar divisa [Jhonatan clicks on Seleccionar ver orden, Jhonatan clicks on Seleccionar boton editar, Jhonatan clicks on Divisa, Jhonatan clicks on Seleccionar boton continuar]], Then el verifica la alerta de error mostrada por el sistema
+| errorMssage |
+| Warning: You do not have permission to access the API!
+× | [Then verificar alerta]]]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Verificar que el usuario no pueda editar el campo divisa
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
